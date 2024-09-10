@@ -13,7 +13,7 @@ app.get("/", function (req, res) {
 app.get("/bps", (req, res) => {
   res.send("welcome to bps hotel");
 });
-app.use("/person", persionRoute);
+app.use("/person", persionRoute);// Change The url /person The perso route is open
 app.use("/MenuItem", MenuItemRoute);
 
 app.listen(3000, () => {
